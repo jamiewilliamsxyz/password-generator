@@ -1,3 +1,8 @@
 :root {
   font-family: "Karla", Arial, sans-serif;
+
+  --bg-color: #1f2937;
+  --primary-color: #10b981;
+  --text-color: #ffffff;
+  --secondary-text-color: #d5d4d8;
 }
