@@ -1,3 +1,5 @@
+import { characters } from "./characters.js";
+
 let outputEl1 = document.getElementById("output-el1");
 let outputEl2 = document.getElementById("output-el2");
 
