@@ -1,6 +1,5 @@
 :root {
-  font-family: "Karla", Arial, sans-serif;
-
+  font-family: "Inter", Arial, sans-serif;
   --bg-colour: #1f2937;
   --primary-colour: #10b981;
   --text-colour: #ffffff;
@@ -22,11 +21,14 @@ body {
 }
 
 h1 {
+  margin-bottom: 0;
+
   font-size: 40px;
   font-weight: 800;
   line-height: 40px;
   letter-spacing: -2.5%;
-  margin-bottom: 0;
+
+  font-family: "Karla", Arial, sans-serif;
 }
 
 span {
