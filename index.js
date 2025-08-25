@@ -6,8 +6,15 @@ let outputEl2 = document.getElementById("output-el2");
 let password1 = "";
 let password2 = "";
 
+let passwordLength = 15;
+
 const generatePassword = () => {
-  return "testPassword";
+  let password = "";
+
+  for (let i = 0; i < passwordLength; i++) {
+    password += characters[Math.floor(Math.random() * characters.length)];
+  }
+  return password;
 };
 
 document.getElementById("generate-btn").addEventListener("click", () => {
